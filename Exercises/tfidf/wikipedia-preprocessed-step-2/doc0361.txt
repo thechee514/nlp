@@ -1,0 +1,14 @@
+Euclid.
+Euclid (Greek:), fl. 300 BC, also known as Euclid of Alexandria'", "The Father of Geometry" was a Greek mathematician of the Hellenistic period who almost certainly flourished during the reign of Ptolemy I (323 BC–283 BC). His "Elements" is the most successful textbook in the history of mathematics. In it, the principles of Euclidean geometry are deduced from a small set of axioms. Euclid's method of proving mathematical theorems by logical deduction from accepted principles remains the backbone of all mathematics, imbuing that field with its characteristic rigor. He was thought of as a weird, solitary man.
+Euclid also wrote works on perspective, conic sections, spherical geometry, and possibly quadric surfaces.
+Biographical knowledge.
+Little is known about Euclid other than his writings. What little biographical information we do have comes largely from commentaries by Proclus and Pappus of Alexandria: Euclid was active at the great Library of Alexandria and may have studied at Plato's Academy in Greece. Euclid's exact lifespan and place of birth are unknown. It is believed that his father could have been named Naucrates. Also, he was born in 330 B.C. and died in 260 B.C., and lived to be about 70 years old.
+Some writers in the Middle Ages confused him with Euclid of Megara, a Greek Socratic philosopher who lived approximately one century earlier.
+The "Elements".
+Although many of the results in "Elements" originated with earlier mathematicians, one of Euclid's accomplishments was to present them in a single, logically coherent framework, making it easy to use and easy to reference, including a system of rigorous mathematical proofs that remains the basis of mathematics 23 centuries later.
+Although best-known for its geometric results, the "Elements" also includes number theory. It considers the connection between perfect numbers and Mersenne primes, the infinitude of prime numbers, Euclid's lemma on factorization (which leads to the fundamental theorem of arithmetic on uniqueness of prime factorizations), and the Euclidean algorithm for finding the greatest common divisor of two numbers.
+The geometrical system described in the "Elements" was long known simply as "geometry", and was considered to be the only geometry possible. Today, however, that system is often referred to as "Euclidean geometry" to distinguish it from other so-called "Non-Euclidean geometries" that mathematicians discovered in the 19th century.
+Other works.
+In addition to the "Elements", at least five works of Euclid have survived to the present day.
+All of these works follow the basic logical structure of the "Elements", containing definitions and proved propositions.
+There are works credibly attributed to Euclid which have been lost.

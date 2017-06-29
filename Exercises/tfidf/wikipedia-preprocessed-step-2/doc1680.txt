@@ -1,0 +1,90 @@
+Markov chain.
+In mathematics, a Markov chain, named after Andrey Markov, is a discrete-time stochastic process with the Markov property. Having the Markov property means that, "given the present state", future states are independent of the past states. In other words, the present state description fully captures all the information that can influence the future evolution of the process. Thus, given the present, the future is conditionally independent of the past.
+At each time instant the system may change its state from the current state to another state, or remain in the same state, according to a certain probability distribution. The changes of state are called transitions, and the probabilities associated with various state-changes are termed transition probabilities. Also see sequential analysis.
+Formal definition.
+A Markov chain is a sequence of random variables "X"1, "X"2, "X"3... with the Markov property, namely that, given the present state, the future and past states are independent. Formally,
+The possible values of "X'i" form a countable set "S" called the state space of the chain.
+Markov chains are often described by a directed graph, where the edges are labeled by the probabilities of going from one state to the other states.
+Variations.
+Continuous-time Markov processes have a continuous index.
+Time-homogeneous Markov chains (or, Markov chains with time-homogeneous transition probabilities) are processes where
+A Markov chain of order "m" (or a Markov chain with memory "m") where "m" is finite, is where
+Let "Yn" = ("Xn", "X'n"−1..., "X'n"−"m"+1), the ordered "m"-tuple of "X" values. Then "Yn" is a Markov chain with state space "Sm" and has the classical Markov property.
+Example.
+A finite state machine can be used as a representation of a Markov chain. If the machine is in state "y" at time "n", then the probability that it moves to state "x" at time "n" + 1 depends only on the current state.
+A thorough development and many examples can be found in the on-line monograph
+The appendix of Meyn 2007, also available on-line, contains an abridged Meyn & Tweedie.
+Properties of Markov chains.
+Define the probability of going from state "i" to state "j" in "n" time steps as
+The "n"-step transition satisfies the Chapman-Kolmogorov equation, that for any "k" such that 0 < "k" < "n",
+The marginal distribution Pr ("X'n" = "x") is the distribution over states at time "n". The initial distribution is Pr ("X"0 = "x"). The evolution of the process through one time step is described by
+The superscript formula_9 is intended to be an integer-valued label only; however, if the Markov chain is time-stationary, then this superscript can also be interpreted as a "raising to the power of", discussed further below.
+Reducibility.
+A state "j" is said to be accessible from a different state "i" (written "i" → "j") if, given that we are in state "i", there is a non-zero probability that at some time in the future, we will be in state "j". Formally, state "j" is accessible from state "i" if there exists an integer "n"≥0 such that
+Allowing "n" to be zero means that every state is defined to be accessible from itself.
+A state "i" is said to communicate with state "j" (written "i" ↔ "j") if it is true that both "i" is accessible from "j" and that "j" is accessible from "i". A set of states "C" is a communicating class if every pair of states in "C" communicates with each other, and no state in "C" communicates with any state not in "C". (It can be shown that communication in this sense is an equivalence relation). A communicating class is closed if the probability of leaving the class is zero, namely that if "i" is in "C" but "j" is not, then "j" is not accessible from "i".
+Finally, a Markov chain is said to be irreducible if its state space is a communicating class; this means that, in an irreducible Markov chain, it is possible to get to any state from any state.
+Periodicity.
+A state "i" has period "k" if any return to state "i" must occur in multiples of "k" time steps. For example, if it is only possible to return to state "i" in an even number of steps, then "i" is periodic with period 2. Formally, the period of a state is defined as
+(where "gcd" is the greatest common divisor). Note that even though a state has period "k", it may not be possible to reach the state in "k" steps. For example, suppose it is possible to return to the state in time steps; then "k" would be 2, even though 2 does not appear in this list.
+If "k" = 1, then the state is said to be aperiodic; otherwise (k>1), the state is said to be periodic with period "k".
+It can be shown that every state in a communicating class must have the same period.
+A finite state irreducible Markov chain is said to be ergodic if its states are aperiodic.
+Recurrence.
+If a state "i" is not transient (it has finite hitting time with probability 1), then it is said to be recurrent or persistent. Although the hitting time is finite, it need not have a finite average. Let "Mi" be the expected (average) return time,
+Then, state "i" is positive recurrent if "Mi" is finite; otherwise, state "i" is null recurrent (the terms non-null persistent and null persistent are also used, respectively).
+It can be shown that a state is recurrent if and only if
+A state "i" is called absorbing if it is impossible to leave this state. Therefore,
+the state "i" is absorbing if and only if
+Ergodicity.
+A state "i" is said to be ergodic if it is aperiodic and positive recurrent. If all states in a Markov chain are ergodic, then the chain is said to be ergodic.
+Steady-state analysis and limiting distributions.
+If the Markov chain is a time-homogeneous Markov chain, so that the process is described by a single, time-independent matrix "p'ij", then the vector "π" is a stationary distribution (also called an equilibrium distribution or invariant measure) if its entries "πj" sum to 1 and satisfy
+Further, if the chain is both irreducible and aperiodic, then for any "i" and "j",
+Note that there is no assumption on the starting distribution; the chain converges to the stationary distribution regardless of where it begins.
+If a chain is not irreducible, its stationary distributions will not be unique (consider any closed communicating class in the chain; each one will have its own unique stationary distribution. Any of these will extend to a stationary distribution for the overall chain, where the probability outside the class is set to zero). However, if a state "j" is aperiodic, then
+and for any other state "i", let "fij" be the probability that the chain ever visits state "j" if it starts at "i",
+Markov chains with a finite state space.
+If the state space is finite, the transition probability distribution can be represented by a matrix, called the "transition matrix", with the ("i", "j")'th element of P equal to
+P is a stochastic matrix. Further, when the Markov chain is a time-homogeneous Markov chain, so that the transition matrix P is independent of the label "n", then the "k"-step transition probability can be computed as the "kth power of the transition matrix, P"k".
+The stationary distribution "π" is a (row) vector which satisfies the equation
+In other words, the stationary distribution "π" is a normalized left eigenvector of the transition matrix associated with the eigenvalue 1.
+Alternatively, "π" can be viewed as a fixed point of the linear (hence continuous) transformation on the unit simplex associated to the matrix P. As any continuous transformation in the unit simplex has a fixed point, a stationary distribution always exists, but is not guaranteed to be unique, in general. However, if the Markov chain is irreducible and aperiodic, then there is a unique stationary distribution π. In addition, P"k" converges to a rank-one matrix in which each row is the stationary distribution π, that is,
+where 1 is the column vector with all entries equal to 1. This is stated by the Perron-Frobenius theorem. This means that as time goes by, the Markov chain forgets where it began (its initial distribution) and converges to its stationary distribution.
+Reversible Markov chain.
+It now appears that time has been reversed. Thus, a Markov chain is said to be reversible if there is a "π" such that
+This condition is also known as the detailed balance condition.
+Summing over formula_30 gives
+so for reversible Markov chains, "π" is always a stationary distribution.
+Bernoulli scheme.
+A Bernoulli scheme is a special case of a Markov chain where the transition probability matrix has identical rows, which means that the next state is even independent of the current state (in addition to being independent of the past states). A Bernoulli scheme with only two possible states is known as a Bernoulli process.
+Markov chains with general state space.
+Many results for Markov chains with finite state space can be generalized to chains with uncountable state space through Harris chains. The main idea is to see if there is a point in the state space that the chain hits with probability one. Generally, it is not true for continuous state space, however, we can define sets "A" and "B" along with a positive number "ε" and a probability
+Then we could collapse the sets into an auxiliary point "α", and a recurrent Harris chain can be modified to contain "α". Lastly, the collection of Harris chains is a comfortable level of generality, which is broad enough to contain a large number of interesting examples, yet restrictive enough to allow for a rich theory.
+Physics.
+Markovian systems appear extensively in physics, particularly statistical mechanics, whenever probabilities are used to represent unknown or unmodelled details of the system, if it can be assumed that the dynamics are time-invariant, and that no relevant history need be considered which is not already included in the state description.
+Testing.
+Several theorists have proposed the idea of the Markov chain statistical test, a method of conjoining Markov chains to form a 'Markov blanket', arranging these chains in several recursive layers ('wafering') and producing more efficient test sets — samples — as a replacement for exhaustive testing. MCSTs also have uses in temporal state-based networks; Chilukuri et al.'s paper entitled "Temporal Uncertainty Reasoning Networks for Evidence Fusion with Applications to Object Detection and Tracking" (ScienceDirect) gives an excellent background and case study for applying MCSTs to a wider range of applications.
+Queueing theory.
+Markov chains can also be used to model various processes in queueing theory and statistics.. Claude Shannon's famous 1948 paper "A mathematical theory of communication", which at a single step created the field of information theory, opens by introducing the concept of entropy through Markov modeling of the English language. Such idealised models can capture many of the statistical regularities of systems. Even without describing the full structure of the system perfectly, such signal models can make possible very effective data compression through entropy coding techniques such as arithmetic coding. They also allow effective state estimation and pattern recognition. The world's mobile telephone systems depend on the Viterbi algorithm for error-correction, while hidden Markov models are extensively used in speech recognition and also in bioinformatics, for instance for coding region/gene prediction. Markov chains also play an important role in reinforcement learning.
+Internet applications.
+The PageRank of a webpage as used by Google is defined by a Markov chain. It is the probability to be at page formula_30 in the stationary distribution on the following Markov chain on all (known) webpages. If formula_39 is the number of known webpages, and a page formula_30 has formula_41 links then it has transition probability formula_42 for all pages that are linked to and formula_43 for all pages that are not linked to. The parameter formula_44 is taken to be about 0.15.
+Markov models have also been used to analyze web navigation behavior of users. A user's web link transition on a particular website can be modeled using first- or second-order Markov models and can be used to make predictions regarding future navigation and to personalize the web page for an individual user.
+Statistical.
+Markov chain methods have also become very important for generating sequences of random numbers to accurately reflect very complicated desired probability distributions, via a process called Markov chain Monte Carlo (MCMC). In recent years this has revolutionised the practicability of Bayesian inference methods, allowing a wide range of posterior distributions to be simulated and their parameters found numerically.
+Mathematical biology.
+Markov chains also have many applications in biological modelling, particularly population processes, which are useful in modelling processes that are (at least) analogous to biological populations. The Leslie matrix is one such example, though some of its entries
+are not probabilities (they may be greater than 1). Another important example is the modeling of cell shape in dividing sheets of epithelial cells]. The distribution of shapes -- predominantly hexagonal -- was a long standing mystery until it was explained by a simple Markov Model, where a cell's state is its number of sides. Empirical evidence from frogs, fruit flies, and hydra further suggests that the stationary distribution of cell shape is exhibited by almost all multicellular animals.
+Gambling.
+Markov chains can be used to model many games of chance. The children's games Snakes and Ladders and "Hi Ho! Cherry-O", for example, are represented exactly by Markov chains. At each turn, the player starts in a given state (on a given square) and from there has fixed odds of moving to certain other states (squares).
+Music.
+Markov chains are employed in algorithmic music composition, particularly in software programs such as CSound or Max. In a first-order chain, the states of the system become note or pitch values, and a probability vector for each note is constructed, completing a transition probability matrix (see below). An algorithm is constructed to produce and output note values based on the transition matrix weightings, which could be MIDI note values, frequency (Hz), or any other desirable metric.
+A second-order Markov chain can be introduced by considering the current state "and" also the previous state, as indicated in the second table. Higher, "n"th-order chains tend to "group" particular notes together, while 'breaking off' into other patterns and sequences occasionally. These higher-order chains tend to generate results with a sense of phrasal structure, rather than the 'aimless wandering' produced by a first-order system.
+Baseball.
+Markov chains models have been used in advanced baseball analysis since 1960, although their use is still rare. Each half-inning of a baseball game fits the Markov chain state when the number of runners and outs are considered. For each half-inning there are 24 possible run-out combinations. Markov chain models can be used to evaluate runs created for both individual players as well as a team..
+Markov parody generators.
+Markov processes can also be used to generate superficially "real-looking" text given a sample document: they are used in a variety of recreational "parody generator" software (see dissociated press, Jeff Harrison, Mark V Shaney,
+History.
+Andrey Markov produced the first results (1906) for these processes, purely theoretically.
+A generalization to countably infinite state spaces was given by Kolmogorov (1936).
+Markov chains are related to Brownian motion and the ergodic hypothesis, two topics in physics which were important in the early years of the twentieth century, but Markov appears to have pursued this out of a mathematical motivation, namely the extension of the law of large numbers to dependent events. In 1913, he applied his findings for the first time, namely, to the first 20,000 letters of Pushkin's "Eugene Onegin".

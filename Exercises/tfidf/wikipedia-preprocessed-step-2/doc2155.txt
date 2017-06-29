@@ -1,0 +1,33 @@
+List of particles.
+This is a list of particles in particle physics, including currently known and hypothetical elementary particles, as well as the composite particles that can be built up from them.</onlyinclude>
+Elementary particles.
+Elementary particles are particles with no measurable internal structure; that is, they are not composed of other particles. They are the fundamental objects of quantum field theory. Elementary particles can be classified according to their spin, with fermions having half-integer spin and bosons integer spin.
+Standard Model.
+The Standard Model of particle physics is the current understanding of the physics of elementary particles. All Standard Model particles except the Higgs boson have been observed.
+Fermions (half-integer spin).
+Fermions have half-integer spin; for all known elementary fermions this is ½. Each fermion has its own distinct antiparticle. Fermions are the basic building blocks of all matter. They are classified according to whether they interact via the color force or not. In the Standard Model, there are 12 types of elementary fermions: six quarks and six leptons.<onlyinclude>
+Leptons.
+Leptons do not interact via the color force. Their respective antiparticles are known as antileptons. (The antiparticle of the electron is called the positron for historical reasons.) There are six leptons, listed here with its corresponding antiparticle:-
+Bosons (integer spin).
+The Higgs boson (spin-0) is necessitated by electroweak theory primarily to explain the origin of particle masses. Following a process known as the Higgs mechanism, the Higgs boson, and the other fermions in the Standard Model acquire mass via spontaneous symmetry breaking of the SU(2) gauge symmetry. It should be noted that in some theories, the Higgs mechanism, which explains the origin of mass, does not require the existence of a Higgs boson. It is also the only Standard Model particle not yet observed; note that the graviton is not a standard model particle. Assuming that the Higgs boson exists, it is expected to be discovered at the Large Hadron Collider particle accelerator under construction at CERN.
+Hypothetical particles.
+"Mirror particles" are predicted by theories that restore Parity symmetry.
+"Magnetic monopole" is a generic name for particles with non-zero magnetic charge. They are predicted by some GUT theories.
+"Tachyon" is a generic name for hypothetical particles that travel faster than the speed of light and have an imaginary rest mass.
+The preon was a suggested substructure for both quarks and leptons, but modern collider experiments have all but disproven their existence.
+Hadrons.
+Quark models, first proposed in 1964 independently by Murray Gell-Mann and George Zweig (who called quarks "aces"), describe the known Hadrons as composed of valence quarks and/or antiquarks, tightly bound by the color force, which is mediated by gluons. A "sea" of virtual quark-antiquark pairs is also present in each Hadron.
+Notice that mesons are composite bosons, but not composed of bosons. All Hadrons, including mesons, are composed of quarks (which are fermions).
+Baryons (fermions).
+Ordinary baryons (composite fermions) contain three valence quarks or three valence antiquarks each.
+Some hints at the existence of exotic baryons have been found recently; however, negative results have also been reported. Their existence is uncertain.
+Mesons (bosons).
+Ordinary mesons (composite bosons) contain a valence quark and a valence antiquark, and include the pion, kaon, the ψ, and many other types of mesons. In quantum hadrodynamic models, the strong force between nucleons is mediated by mesons.
+Exotic mesons may also exist. Positive signatures have been reported for all of these particles at some time, but their existence is still somewhat uncertain.
+Atomic nuclei.
+Atomic nuclei consist of protons and neutrons. Each type of nucleus contains a specific number of protons and a specific number of neutrons, and is called a nuclide or isotope. Nuclear reactions can change one nuclide into another. See table of nuclides for a complete list of isotopes.
+Atoms.
+Atoms are the smallest neutral particles into which matter can be divided by chemical reactions. An atom consists of a small, heavy nucleus surrounded by a relatively large, light cloud of electrons. Each type of atom corresponds to a specific chemical element.Total 118 elements(except element 117) have been discovered till date of which 111 have been officially named. Refer to the periodic table for an overview.
+Atoms consist of protons and neutrons within the nucleus. Within these particles, there are smaller particles still which are then made up of even smaller particles still.
+Molecules===.
+Molecules are the smallest particles into which a non-elemental substance can be divided while maintaining the physical properties of the substance. Each type of molecule corresponds to a specific chemical compound. Molecules are composites of one or more atoms. See list of compounds for a list of molecules.

@@ -1,0 +1,63 @@
+Tigrinya language.
+Tigrinya (Ge'ez ትግርኛ "tigriññā", also spelled Tigrigna, or Tigrina; less commonly "Tigrinian", "Tigrinyan") is a Semitic language spoken by the Tigray-Tigrinya people in central Eritrea (there referred to as the "Tigrinya" people), where it is one of the main working languages (Eritrea does not have official languages), and in the Tigray Region of Ethiopia (whose speakers are called "Tigray"), where it also has official status, and among groups of emigrants from these regions, including some of the Beta Israel now living in Israel. Tigrinya is also spoken by the Jeberti (Muslim Tigrinya) in Eritrea.
+Tigrinya should not be confused with the related Tigre language, which is spoken in the lowland regions in Eritrea to the north and west of the region where Tigrinya is spoken.
+History and literature.
+The earliest written example of Tigrinya is a text of local laws found in the district of Logosarda, southern Eritrea which date from the 13th century.
+In Eritrea, during British administration, the Ministry of information put out a weekly newspaper in Tigrinya which cost 5 cents and sold 5,000 copies weekly. At the time it was reported to be the first of its kind.
+Tigrinya (along with Arabic) was one of Eritrea's official languages during its short-lived federation with Ethiopia; in 1958 it was replaced with Amharic prior to its annexation.
+Speakers.
+There is no generally agreed upon name for the people who speak Tigrinya.
+A native of Tigray is referred to in Tigrinya as ' (male), ' (female), ' or "tegaru"(plural).
+In Eritrea, Tigrinya speakers are officially known as the "Bihér-Tigrigna" which means nation of Tigrigna/Tigrinya speakers. Bihér roughly means nation in the ethnic sense of the word in Tigrinya, Tigre and Amharic as well as in Ge'ez from where all these languages originate. Muslim native Tigrigna speakers are known as the "Jeberti", an Arabic name which implies conversion to Islam among Africans and is also used by a Somali sub-clan.
+In Ethiopia, Tigrinya is the third most spoken language, after Amharic and Oromo, while in Eritrea, Tigrinya is by far the most spoken language (see Demographics of Eritrea). Tigrigna is spoken by immigrants in (Italy, Germany, Saudi Arabia, Sweden, United Kingdom, and United States)
+Tigrinya dialects differ phonetically, lexically, and grammatically.
+However, speakers and readers apparently have no difficulty understanding each other.
+So far no dialect appears to be accepted as a standard.
+This article does not pretend to cover dialectal variation.
+Consonant phonemes.
+Tigrinya has a fairly typical set of phonemes for an Ethiopian Semitic language.
+That is, there is a set of ejective consonants
+Unlike many of the modern Ethiopian Semitic languages, Tigrinya has preserved the two
+pharyngeal consonants which were apparently part of the ancient Ge'ez language and
+which, along with [x'], a velar or uvular ejective fricative, make it easy to distinguish spoken Tigrinya from related languages such as Amharic, though not from
+Tigre, which has also maintained the pharyngeal consonants.
+The charts below show the phonemes of Tigrinya. The sounds are shown using the same system for representing the sounds as in the rest of the article. When the IPA symbol is different, it is indicated in square brackets.
+The consonant /v/ appears in parentheses because it occurs only in recent borrowings from European languages.
+The fricative sounds, and occur as allophones.
+Vowel phonemes.
+The sounds are shown using the same system for representing the sounds as in the rest of the article. When the IPA symbol is different, it is indicated in square brackets.
+Gemination.
+Gemination, a linguistic term meaning the doubling of a consonantal sound (as in the English word "meanness"), is meaningful in Tigrinya, i.e. it affects the meaning of words. While gemination plays an important role in the morphology of the Tigrinya verb, it is normally accompanied by other marks. But there is a small number of pairs of words, which are only differentiable from each other by gemination, e.g., "he came near";, "he was near". All the consonants, with the exception of the pharyngeal and glottal, are amenable to gemination.
+Allophones.
+The velar consonants /k/ and /k'/ are pronounced differently when they appear immediately after a vowel and are not geminated. In these circumstances, /k/ is pronounced as
+a velar fricative. /k'/ is pronounced as a fricative, or sometimes as an affricate.
+This fricative or affricate is more often pronounced further back, in the uvular place of articulation (although it is represented in this article with [x']). All of these possible realizations - velar ejective fricative, uvular ejective fricative, velar ejective affricate and uvular ejective affricate - are cross-linguistically very rare sounds.
+Since these two sounds are completely conditioned by their environments, they can be considered allophones of /k/ and /k'/.
+This is especially clear from verb roots in which one consonant is realized as one or the other allophone depending on what precedes it.
+For example, for the verb meaning "cry", which has the triconsonantal root, there are forms such as ምብካይ ' (to cry) and በኸየ "bäxäyä" (he cried), and for the verb meaning "steal", which has the triconsonantal root, there are forms such as ይሰርቁ ' (they steal) and ይሰርቕ ' (he steals).
+What is especially interesting about these pairs of phones is that they are distinguished in Tigrinya orthography.
+Because allophones are completely predictable, it is quite unusual for them to be represented with distinct symbols in the written form of a language.
+Syllables.
+A Tigrinya syllable may consist of a consonant-vowel or a consonant-vowel-consonant sequence.
+When three consonants (or one geminated consonant and one simple consonant) come together within a word, the cluster is broken up with the introduction of an epenthetic vowel //, and when two consonants (or one geminated consonant) would otherwise end a word, the vowel /i/ appears after them, or (when this happens because of the presence of a suffix) is introduced before the suffix.
+Stress is neither contrastive nor particularly salient in Tigrinya.
+It seems to depend on gemination, but it has apparently not been systematically investigated.
+Writing system.
+Tigrinya is written in the Ge'ez script, originally developed for the now-extinct Ge'ez language. Ge'ez and its script are also called "Ethiopic." The Ge'ez script is an abugida: each symbol represents a consonant+vowel syllable, and the symbols are organized in groups of similar symbols on the basis of both the consonant and the vowel.
+In the table below the columns are assigned to the seven vowels of Tigrinya (and Ge'ez);
+they appear in the traditional order.
+The rows are assigned to the consonants, again in the traditional order.
+For each consonant in an abugida, there is an unmarked symbol representing that consonant followed by a canonical or inherent vowel.
+For the Ge'ez abugida, this canonical vowel is /ä/, the first column in the table.
+However, since the pharyngeal and glottal consonants of Tigrinya (and other Ethiopian Semitic languages)
+cannot be followed by this vowel,
+the symbols in the first column in the rows for those consonants
+are pronounced with the vowel /a/, exactly as in the fourth row.
+These redundant symbols are falling into disuse in Tigrinya and are shown with a dark gray background in the
+When it is necessary to represent a consonant with no following vowel, the "consonant"+' form is used
+(the symbol in the sixth column).
+For example, the word ' 'what?' is written እንታይ, literally.
+Since some of the distinctions that were apparently made in Ge'ez have been lost in Tigrinya, there are two rows of symbols each for the consonants /h/, /s/, and /s'/.
+In Eritrea, for /s/ and /s'/, at least, one of these has fallen into disuse in Tigrinya and is now
+These less-used series are shown with a dark gray background in the chart.
+The orthography does not mark gemination, so the pair of words ' 'he approached', ' 'he was near' are both written ቀረበ. Since such minimal pairs are very rare, this presents no problem to readers of the language.

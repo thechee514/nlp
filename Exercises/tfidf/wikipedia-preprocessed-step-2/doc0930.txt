@@ -1,0 +1,11 @@
+Periodic table (large version).
+This is a large version of the periodic table and contains the symbol, atomic number, and standard atomic weight of each element. The periodic table of the chemical elements is a tabular method of displaying the chemical elements. Although precursors to this table exist, its invention is generally credited to Russian chemist Dmitri Mendeleev in 1869. Mendeleev intended the table to illustrate recurring ("periodic") trends in the properties of the elements. The layout of the table has been refined and extended over time, as new elements have been discovered, and new theoretical models have been developed to explain chemical behavior.
+The periodic table is now ubiquitous within the academic discipline of chemistry, providing an extremely useful framework to classify, systematize and compare all the many different forms of chemical behavior. The table has also found wide application in physics, biology, engineering, and industry. The current standard table contains 117 confirmed elements as of January 27, 2008 (while element 118 has been synthesized, element 117 has not).
+Table.
+! 3
+! 4
+! 5
+! 6
+! 7
+† A value in brackets, such as [259.1011], is the atomic mass of the most stable isotope unless it is an integer, in which case it is the mass number of the most stable isotope. In all other cases, the value is the relative atomic mass of common terrestrial composition, according to Atomic Weights of the Elements 2001, and includes its uncertainty in parenthesis. For example, the value of 1.00794(7) for hydrogen means that a normal terrestrial isotopic composition of hydrogen has a relative atomic mass of 1.00794 atomic mass units (u) with an uncertainty of 0.00007u, reflecting primarily local variability around the earth.
+‡ This atomic mass is only an estimate, as this element has not yet been discovered.

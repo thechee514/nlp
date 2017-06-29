@@ -1,0 +1,83 @@
+Bayes' theorem.
+Bayes' theorem (also known as Bayes' rule or Bayes' law) is a result in probability theory that relates conditional probabilities. If "A" and "B" denote two events, "P"("A"|"B") denotes the conditional probability of "A" occurring, given that "B" occurs. The two conditional probabilities "P"("A"|"B") and "P"("B"|"A") are generally different. Bayes theorem gives a relation between "P"("A"|"B") and "P"("B"|"A").
+An important application of Bayes' theorem is that it gives a rule how to update or revise the strengths of evidence-based beliefs in light of new evidence "a posteriori".
+As a formal theorem, Bayes' theorem is valid in all interpretations of probability. However, it plays a central role in the debate around the foundations of statistics: frequentist and Bayesian interpretations disagree about the kinds of things to which probabilities should be assigned in applications. Whereas frequentists assign probabilities to random events according to their frequencies of occurrence or to subsets of populations as proportions of the whole, Bayesians assign probabilities to propositions that are uncertain. A consequence is that Bayesians have more frequent occasion to use Bayes' theorem. The articles on Bayesian probability and frequentist probability discuss these debates at greater length.
+Bayes' theorem in terms of likelihood.
+Here "L"("A"|"B") is the likelihood of "A" given fixed "B". The rule is then an immediate consequence of the relationship formula_3. In many contexts the likelihood function "L" can be multiplied by a constant factor, so that it is proportional to, but does not equal the conditional probability "P".
+With this terminology, the theorem may be paraphrased as
+In words: the posterior probability is proportional to the product of the prior probability and the likelihood.
+In addition, the ratio "L"("A"|"B")/"P"("B") is sometimes called the "standardized likelihood" or "normalized likelihood", so the theorem may also be paraphrased as
+Derivation from conditional probabilities.
+To derive the theorem, we start from the definition of conditional probability. The probability of event "A" given event "B" is
+Likewise, the probability of event "B" given event "A" is
+Rearranging and combining these two equations, we find
+Alternative forms of Bayes' theorem.
+Bayes' theorem is often embellished by noting that
+where "A'C" is the complementary event of "A" (often called "not A"). So the theorem can be restated as
+More generally, where forms a partition of the event space,
+for any "A'i" in the partition.
+See also the law of total probability.
+Bayes' theorem in terms of odds and likelihood ratio.
+Bayes' theorem can also be written neatly in terms of a likelihood ratio Λ and odds "O" as
+where formula_14 are the "odds" of "A" given "B",
+and formula_15 are the odds of "A" by itself,
+while formula_16 is the likelihood ratio.
+Bayes' theorem for probability densities.
+There is also a version of Bayes' theorem for continuous distributions.
+It is somewhat harder to derive, since probability densities,
+so Bayes' theorem has to be established by a limit process;
+see Papoulis (citation below), Section 7.3 for an elementary derivation.
+"f"("x", "y") is the joint distribution of "X" and "Y",
+"f"("x"|"y") is the posterior distribution of "X" given "Y"="y",
+"f"("y"|"x") = "L"("x"|"y") is (as a function of "x") the likelihood function of "X" given "Y"="y",
+and "f"("x") and "f"("y") are the marginal distributions of "X" and "Y" respectively, with "f"("x") being the prior distribution of "X".
+Here we have indulged in a conventional abuse of notation,
+using "f" for each one of these terms,
+although each one is really a different function;
+the functions are distinguished by the names of their arguments.
+Abstract Bayes' theorem.
+Given two absolutely continuous probability measures formula_19 on the probability space formula_20 and a sigma-algebra formula_21, the abstract Bayes theorem for a formula_22-measurable random variable formula_23 becomes
+This formulation is used in Kalman filtering to find Zakai equations. It is also used in financial mathematics for change of numeraire techniques.
+Extensions of Bayes' theorem.
+A general strategy is to work with a decomposition of the joint probability, and to marginalize (integrate) over the variables that are not of interest.
+Depending on the form of the decomposition,
+it may be possible to prove that some integrals must be 1,
+and thus they fall out of the decomposition;
+exploiting this property can reduce the computations very substantially.
+A Bayesian network, for example, specifies a factorization of a joint distribution of several variables in which the conditional probability of any one variable given the remaining ones takes a particularly simple form (see Markov blanket).
+Example #1: Conditional probabilities.
+Suppose there are two bowls full of cookies. Bowl #1 has 10 chocolate chip cookies and 30 plain cookies, while bowl #2 has 20 of each. Fred picks a bowl at random, and then picks a cookie at random. We may assume there is no reason to believe Fred treats one bowl differently from another, likewise for the cookies. The cookie turns out to be a plain one. How probable is it that Fred picked it out of bowl #1?
+Intuitively, this should be greater than half since bowl #1 contains the same number of cookies as bowl #2, yet it has more plain.
+As we expected, it is more than half.
+Tables of occurrences and relative frequencies.
+It is often helpful when calculating conditional probabilities to create a simple table containing the number of occurrences of each outcome, or the relative frequencies of each outcome, for each of the independent variables. The tables below illustrate the use of this method for the cookies.
+The table on the right is derived from the table on the left by dividing each entry by the total number of cookies under consideration, i.e. dividing each number by 80.
+Example #2: Drug testing.
+Despite the high accuracy of the test, the probability that an employee who tested positive actually did use drugs is only about 33%, so it is "actually more likely" that the employee is not a drug user. The rarer the condition for which we are testing, the greater the percentage of positive tests that will be false positives. This example illustrates why it is important not to rely on a single test and to do follow-up tests.
+Example #3: Bayesian inference.
+Applications of Bayes' theorem often assume the philosophy underlying Bayesian probability that uncertainty and degrees of belief can be measured as probabilities. One such example follows. For additional worked out examples, including simpler examples, please see the article on the examples of Bayesian inference.
+We describe the marginal probability distribution of a variable "A" as the "prior probability distribution" or simply the "prior". The conditional distribution of "A" given the "data" "B" is the "posterior probability distribution" or just the "posterior".
+Suppose we wish to know about the proportion r of voters in a large population who will vote "yes" in a referendum. Let n be the number of voters in a random sample (chosen with replacement, so that we have statistical independence) and let m be the number of voters in that random sample who will vote "yes". Suppose that we observe "n" = 10 voters and "m" = 7 say they will vote yes. From Bayes' theorem we can calculate the probability distribution function for "r" using
+From this we see that from the prior probability density function "f"("r") and the likelihood function "L"("r") = "f"("m" = 7|"r", "n" = 10), we can compute the posterior probability density function "f"("r"|"n" = 10, "m" = 7).
+The prior probability density function "f"("r") summarizes what we know about the distribution of "r" in the absence of any observation. We provisionally assume in this case that the prior distribution of "r" is uniform over the interval [0, 1]. That is, "f"("r") = 1. If some additional background information is found, we should modify the prior accordingly. However before we have any observations, all outcomes are equally likely.
+Under the assumption of random sampling, choosing voters is just like choosing balls from an urn. The likelihood function "L"("r") = "P"("m" = 7|"r", "n" = 10,) for such a problem is just the probability of 7 successes in 10 trials for a binomial distribution.
+As with the prior, the likelihood is open to revision -- more complex assumptions will yield more complex likelihood functions. Maintaining the current assumptions, we compute the normalizing factor,
+and the posterior distribution for "r" is then
+for "r" between 0 and 1, inclusive.
+One may be interested in the probability that more than half the voters will vote "yes". The "prior probability" that more than half the voters will vote "yes" is 1/2, by the symmetry of the uniform distribution. In comparison, the posterior probability that more than half the voters will vote "yes", i.e., the conditional probability given the outcome of the opinion poll – that seven of the 10 voters questioned will vote "yes" – is
+which is about an "89% chance".
+Example #4: The Monty Hall problem.
+We are presented with three doors - red, green, and blue - one of which has a prize. We choose the red door, which is not opened until the presenter performs an action. The presenter "who knows what door the prize is behind, and who must open a door, but is not permitted to open the door we have picked or the door with the prize", opens the "green" door and reveals that there is no prize behind it and subsequently asks if we wish to change our mind about our initial selection of red. What is the probability that the prize is behind the blue and red doors?
+Let us call the situation that the prize is behind a given door Ar, Ag, and Ab.
+To start with, formula_36, and to make things simpler we shall assume that we have already picked the red door.
+Let us call B "the presenter opens the blue door". Without any prior knowledge, we would assign this a probability of 50%
+formula_40
+Note how this depends on the value of P(B).
+Historical remarks.
+An investigation by a statistics professor (Stigler 1983) suggests that Bayes' theorem was discovered by Nicholas Saunderson some time before Bayes.
+Bayes' theorem is named after the Reverend Thomas Bayes (1702–1761), who studied how to compute a distribution for the parameter of a binomial distribution (to use modern terminology). His friend, Richard Price, edited and presented the work in 1763, after Bayes' death, as "An Essay towards solving a Problem in the Doctrine of Chances". Pierre-Simon Laplace replicated and extended these results in an essay of 1774, apparently unaware of Bayes' work.
+Note that the expression says nothing about the "order" in which the events occurred; it measures correlation, not causation. His preliminary results, in particular Propositions 3, 4, and 5, imply the result now called Bayes' Theorem (as described above), but it does not appear that Bayes himself emphasized or focused on that result.
+Bayes' main result (Proposition 9 in the essay) is the following: assuming a uniform distribution for the prior distribution of the binomial parameter "p", the probability that "p" is between two values "a" and "b" is
+where "m" is the number of observed successes and "n" the number of observed failures.
+What "Bayesian" about Proposition 9 is that Bayes presented it as a probability for the parameter "p". So, one can compute probability for an experimental outcome, but also for the parameter which governs it, and the same algebra is used to make inferences of either kind.
+Bayes states his question in a way that might make the idea of assigning a probability distribution to a parameter palatable to a frequentist. He supposes that a billiard ball is thrown at random onto a billiard table, and that the probabilities "p" and "q" are the probabilities that subsequent billiard balls will fall above or below the first ball.

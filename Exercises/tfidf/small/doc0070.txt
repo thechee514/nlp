@@ -1,0 +1,147 @@
+Artificial intelligence.
+Artificial intelligence (or AI) is both the intelligence of machines and the branch of computer science which aims to create it.
+Major AI textbooks define artificial intelligence as "the study and design of intelligent agents,"
+where an intelligent agent is a system that perceives its environment and takes actions which maximize its chances of success.
+AI can be seen as a realization of an abstract intelligent agent (AIA) which exhibits the functional essence of intelligence.
+John McCarthy, who coined the term in 1956,
+defines it as "the science and engineering of making intelligent machines."
+Among the traits that researchers hope machines will exhibit are reasoning, knowledge, planning, learning, communication, perception and the ability to move and manipulate objects.
+General intelligence (or "strong AI") has not yet been achieved and is a long-term goal of AI research.
+AI research uses tools and insights from many fields, including computer science, psychology, philosophy, neuroscience, cognitive science, linguistics, ontology, operations research, economics, control theory, probability, optimization and logic.
+AI research also overlaps with tasks such as robotics, control systems, scheduling, data mining, logistics, speech recognition, facial recognition and many others.
+Other names for the field have been proposed, such as computational intelligence,
+synthetic intelligence,
+intelligent systems,
+AI in myth, fiction and speculation.
+Humanity has imagined in great detail the implications of thinking machines or artificial beings. They appear in Greek myths, such as Talos of Crete, the golden robots of Hephaestus and Pygmalion's Galatea. The earliest known humanoid robots (or automatons) were sacred statues worshipped in Egypt and Greece, believed to have been endowed with genuine consciousness by craftsman. In medieval times, alchemists such as Paracelsus claimed to have created artificial beings. Realistic clockwork imitations of human beings have been built by people such as Yan Shi, Hero of Alexandria, Al-Jazari and Wolfgang von Kempelen. Pamela McCorduck observes that "artificial intelligence in one form or another is an idea that has pervaded Western intellectual history, a dream in urgent need of being realized."
+In modern fiction, beginning with Mary Shelley's classic "Frankenstein," writers have explored the ethical issues presented by thinking machines. If a machine can be created that has intelligence, can it also "feel"? If it can feel, does it have the same rights as a human being? This is a key issue in "Frankenstein" as well as in modern science fiction: for example, the film ' considers a machine in the form of a small boy which has been given the ability to feel human emotions, including, tragically, the capacity to suffer. This issue is also being considered by futurists, such as California's Institute for the Future under the name "robot rights", although many critics believe that the discussion is premature.
+Science fiction writers and futurists have also speculated on the technology's potential impact on humanity. In fiction, AI has appeared as a servant (R2D2), a comrade (Lt. Commander Data), an extension to human abilities ("Ghost in the Shell"), a conqueror ("The Matrix"), a dictator ("With Folded Hands") and an exterminator ("Terminator", "Battlestar Galactica"). Some realistic potential consequences of AI are decreased labor demand, the enhancement of human ability or experience, and a need for redefinition of human identity and basic values.
+Futurists estimate the capabilities of machines using Moore's Law, which measures the relentless exponential improvement in digital technology with uncanny accuracy. Ray Kurzweil has calculated that desktop computers will have the same processing power as human brains by the year 2029, and that by 2040 artificial intelligence will reach a point where it is able to improve "itself" at a rate that far exceeds anything conceivable in the past, a scenario that science fiction writer Vernor Vinge named the "technological singularity".
+"Artificial intelligence is the next stage in evolution," Edward Fredkin said in the 1980s, expressing an idea first proposed by Samuel Butler's "Darwin Among the Machines" (1863), and expanded upon by George Dyson (science historian) in his book of the same name (1998). Several futurists and science fiction writers have predicted that human beings and machines will merge in the future into cyborgs that are more capable and powerful than either. This idea, called transhumanism, has roots in Aldous Huxley and Robert Ettinger, is now associated with robot designer Hans Moravec, cyberneticist Kevin Warwick and Ray Kurzweil. Transhumanism has been illustrated in fiction as well, for example on the manga "Ghost in the Shell."
+History of AI research.
+In the middle of the 20th century, a handful of scientists began a new approach to building intelligent machines, based on recent discoveries in neurology, a new mathematical theory of information, an understanding of control and stability called cybernetics, and above all, by the invention of the digital computer, a machine based on the abstract essence of mathematical reasoning.
+The field of modern AI research was founded at conference on the campus of Dartmouth College in the summer of 1956.
+computers were solving word problems in algebra, proving logical theorems and speaking English.
+By the middle 60s their research was heavily funded by the U.S. Department of Defense
+These predictions, and many like them, would not come true. They had failed to recognize the difficulty of some of the problems they faced.
+In 1974, in response to the criticism of England's Sir James Lighthill and ongoing pressure from Congress to fund more productive projects, DARPA cut off all undirected, exploratory research in AI. This was the first AI Winter.
+In the early 80s, AI research was revived by the commercial success of expert systems; applying the knowledge and analytical skills of one or more human experts. By 1985 the market for AI had reached more than a billion dollars.
+Minsky and others warned the community that enthusiasm for AI had spiraled out of control and that disappointment was sure to follow.
+Beginning with the collapse of the Lisp Machine market in 1987, AI once again fell into disrepute, and a second, more lasting AI Winter began.
+In the 90s and early 21st century AI achieved its greatest successes, albeit somewhat behind the scenes. Artificial intelligence was adopted throughout the technology industry, providing the heavy lifting for logistics, data mining, medical diagnosis and many other areas.
+The success was due to several factors: the incredible power of computers today (see Moore's law), a greater emphasis on solving specific subproblems, the creation of new ties between AI and other fields working on similar problems, and above all a new commitment by researchers to solid mathematical methods and rigorous scientific standards.
+Problems of AI.
+While there is no universally accepted definition of intelligence,
+AI researchers have studied several traits that are considered essential.
+Deduction, reasoning, problem solving ====.
+Early AI researchers developed algorithms that imitated the process of conscious, step-by-step reasoning that human beings use when they solve puzzles, play board games, or make logical deductions.
+By the late 80s and 90s, AI research had also developed highly successful methods for dealing with uncertain or incomplete information, employing concepts from probability and economics.
+For difficult problems, most of these algorithms can require enormous computational resources — most experience a "combinatorial explosion": the amount of memory or computer time required becomes astronomical when the problem goes beyond a certain size. The search for more efficient problem solving algorithms is a high priority for AI research.
+It is not clear, however, that conscious human reasoning is any more efficient when faced with a difficult abstract problem. Cognitive scientists have demonstrated that human beings solve most of their problems using unconscious reasoning, rather than the conscious, step-by-step deduction that early AI research was able to model.
+Embodied cognitive science argues that unconscious sensorimotor skills are essential to our problem solving abilities. It is hoped that sub-symbolic methods, like computational intelligence and situated AI, will be able to model these instinctive skills. The problem of unconscious problem solving, which forms part of our commonsense reasoning, is largely unsolved.
+Knowledge representation====.
+Knowledge representation
+and knowledge engineering
+are central to AI research. Many of the problems machines are expected to solve will require extensive knowledge about the world. Among the things that AI needs to represent are: objects, properties, categories and relations between objects;
+knowledge about knowledge (what we know about what other people know);
+and many other, less well researched domains. A complete representation of "what exists" is an ontology
+(borrowing a word from traditional philosophy), of which the most general are called upper ontologies.
+Planning====.
+Intelligent agents must be able to set goals and achieve them.
+They need a way to visualize the future: they must have a representation of the state of the world and be able to make predictions about how their actions will change it. They must also attempt to determine the utility or "value" of the choices available to it.
+In some planning problems, the agent can assume that it is the only thing acting on the world and it can be certain what the consequences of it's actions may be.
+However, if this is not true, it must periodically check if the world matches its predictions and it must change its plan as this becomes necessary, requiring the agent to reason under uncertainty.
+Multi-agent planning tries to determine the best plan for a community of agents, using cooperation and competition to achieve a given goal. Emergent behavior such as this is used by both evolutionary algorithms and swarm intelligence.
+Learning====.
+Important machine learning
+Natural language processing====.
+Natural language processing
+gives machines the ability to read and understand the languages human beings speak. Many researchers hope that a sufficiently powerful natural language processing system would be able to acquire knowledge on its own, by reading the existing text available over the internet. Some straightforward applications of natural language processing include information retrieval (or text mining) and machine translation.
+Motion and manipulation====.
+is closely related to AI. Intelligence is required for robots to be able to handle such tasks as object manipulation
+and navigation, with sub-problems of localization (knowing where you are), mapping (learning what is around you) and motion planning (figuring out how to get there).
+Perception====.
+Machine perception
+is the ability to use input from sensors (such as cameras, microphones, sonar and others more exotic) to deduce aspects of the world. Computer vision
+is the ability to analyze visual input. A few selected subproblems are speech recognition,
+facial recognition and object recognition.
+General intelligence====.
+Most researchers hope that their work will eventually be incorporated into a machine with "general" intelligence (known as strong AI), combining all the skills above and exceeding human abilities at most or all of them. A few believe that anthropomorphic features like artificial consciousness or an artificial brain may be required for such a project.
+Many of the problems above are considered AI-complete: to solve one problem, you must solve them all. For example, even a straightforward, specific task like machine translation requires that the machine follow the author's argument (reason), know what it's talking about (knowledge), and faithfully reproduce the author's intention (social intelligence). Machine translation, therefore, is believed to be AI-complete: it may require strong AI to be done as well as humans can do it.
+Approaches to AI.
+There are as many approaches to AI as there are AI researchers—any coarse categorization is likely to be unfair to someone. Artificial intelligence communities have grown up around particular problems, institutions and researchers, as well as the theoretical insights that define the approaches described below. Artificial intelligence is a young science and is still a fragmented collection of subfields. At present, there is no established unifying theory that links the subfields into a coherent whole.
+Cybernetics and brain simulation.
+In the 40s and 50s, a number of researchers explored the connection between neurology, information theory, and cybernetics. Some of them built machines that used electronic networks to exhibit rudimentary intelligence, such as W. Grey Walter's turtles and the Johns Hopkins Beast. Many of these researchers gathered for meetings of the Teleological Society at Princeton and the Ratio Club in England.
+Traditional symbolic AI.
+When access to digital computers became possible in the middle 1950s, AI research began to explore the possibility that human intelligence could be reduced to symbol manipulation. The research was centered in three institutions: CMU, Stanford and MIT, and each one developed its own style of research. John Haugeland named these approaches to AI "good old fashioned AI" or "GOFAI".
+Sub-symbolic AI.
+During the 1960s, symbolic approaches had achieved great success at simulating high-level thinking in small demonstration programs. Approaches based on cybernetics or neural networks were abandoned or pushed into the background.
+By the 1980s, however, progress in symbolic AI seemed to stall and many believed that symbolic systems would never be able to imitate all the processes of human cognition, especially perception, robotics, learning and pattern recognition. A number of researchers began to look into "sub-symbolic" approaches to specific AI problems.
+Intelligent agent paradigm.
+The "intelligent agent" paradigm became widely accepted during the 1990s.
+Although earlier researchers had proposed modular "divide and conquer" approaches to AI,
+the intelligent agent did not reach its modern form until Judea Pearl, Alan Newell and others brought concepts from decision theory and economics into the study of AI.
+When the economist's definition of a rational agent was married to computer science's definition of an object or module, the intelligent agent paradigm was complete.
+An intelligent agent is a system that perceives its environment and takes actions which maximizes its chances of success. The simplest intelligent agents are programs that solve specific problems. The most complicated intelligent agents would be rational, thinking human beings.
+The paradigm gives researchers license to study isolated problems and find solutions that are both verifiable and useful, without agreeing on one single approach. An agent that solves a specific problem can use any approach that works — some agents are symbolic and logical, some are sub-symbolic neural networks and some can be based on new approaches (without forcing researchers to reject old approaches that have proven useful). The paradigm gives researchers a common language to describe problems and share their solutions with each other and with other fields—such as decision theory—that also use concepts of abstract agents.
+Integrating the approaches.
+An agent architecture or cognitive architecture allows researchers to build more versatile and intelligent systems out of interacting intelligent agents in a multi-agent system.
+A system with both symbolic and sub-symbolic components is a hybrid intelligent system, and the study of such systems is artificial intelligence systems integration. A hierarchical control system provides a bridge between sub-symbolic AI at its lowest, reactive levels and traditional symbolic AI at its highest levels, where relaxed time constraints permit planning and world modelling. Rodney Brooks' subsumption architecture was an early proposal for such a hierarchical system.
+Tools of AI research.
+In the course of 50 years of research, AI has developed a large number of tools to solve the most difficult problems in computer science. A few of the most general of these methods are discussed below.
+Search.
+Many problems in AI can be solved in theory by intelligently searching through many possible solutions: Reasoning can be reduced to performing a search. For example, logical proof can be viewed as searching for a path that leads from premises to conclusions, where each step is the application of an inference rule.
+Planning algorithms search through trees of goals and subgoals, attempting to find a path to a target goal. Robotics algorithms for moving limbs and grasping objects use local searches in configuration space. Even some learning algorithms have at their core a search engine.
+Logic.
+was introduced into AI research by John McCarthy in his 1958 Advice Taker proposal. The most important technical development was J. Alan Robinson's discovery of the resolution and unification algorithm for logical deduction in 1963. This procedure is simple, complete and entirely algorithmic, and can easily be performed by digital computers. However, a naive implementation of the algorithm quickly leads to a combinatorial explosion or an infinite loop. In 1974, Robert Kowalski suggested representing logical expressions as Horn clauses (statements in the form of rules: "if "p" then "q"), which reduced logical deduction to backward chaining or forward chaining. This greatly alleviated (but did not eliminate) the problem.
+Logic is used for knowledge representation and problem solving, but it can be applied to other problems as well. For example, the satplan algorithm uses logic for planning,
+and inductive logic programming is a method for learning.
+There are several different forms of logic used in AI research.
+Probabilistic methods for uncertain reasoning.
+Many problems in AI (in reasoning, planning, learning, perception and robotics) require the agent to operate with incomplete or uncertain information. Starting in the late 80s and early 90s, Judea Pearl and others championed the use of methods drawn from probability theory and economics to devise a number of powerful tools to solve these problems.
+Bayesian networks
+are very general tool that can be used for a large number of problems: reasoning (using the Bayesian inference algorithm),
+learning (using the expectation-maximization algorithm),
+planning (using decision networks)
+and perception (using dynamic Bayesian networks).
+Probabilistic algorithms can also be used for filtering, prediction, smoothing and finding explanations for streams of data, helping perception systems to analyze processes that occur over time
+(e.g., hidden Markov models
+and Kalman filters).
+Planning problems have also taken advantages of other tools from economics, such as decision theory and decision analysis,
+information value theory,
+Markov decision processes,
+dynamic decision networks,
+game theory and mechanism design
+Classifiers and statistical learning methods.
+The simplest AI applications can be divided into two types: classifiers ("if shiny then diamond") and controllers ("if shiny then pick up"). Controllers do however also classify conditions before inferring actions, and therefore classification forms a central part of many AI systems.
+Classifiers are functions that use pattern matching to determine a closest match. They can be tuned according to examples, making them very attractive for use in AI. These examples are known as observations or patterns. In supervised learning, each pattern belongs to a certain predefined class. A class can be seen as a decision that has to be made. All the observations combined with their class labels are known as a data set.
+When a new observation is received, that observation is classified based on previous experience. A classifier can be trained in various ways; there are many statistical and machine learning approaches.
+A wide range of classifiers are available, each with its strengths and weaknesses. Classifier performance depends greatly on the characteristics of the data to be classified. There is no single classifier that works best on all given problems; this is also referred to as the "no free lunch" theorem. Various empirical tests have been performed to compare classifier performance and to find the characteristics of data that determine classifier performance. Determining a suitable classifier for a given problem is however still more an art than science.
+The most widely used classifiers are the neural network,
+kernel methods such as the support vector machine,
+k-nearest neighbor algorithm, Gaussian mixture model,
+naive Bayes classifier,
+and decision tree.
+The performance of these classifiers have been compared over a wide range of classification tasks
+in order to find data characteristics that determine classifier performance.
+Neural networks.
+The study of neural networks
+began with cybernetics researchers, working in the decade before the field AI research was founded. In the 1960s Frank Rosenblatt developed an important early version, the perceptron.
+Paul Werbos discovered the backpropagation algorithm in 1974,
+which led to a renaissance in neural network research and connectionism in general in the middle 1980s. The Hopfield net, a form of attractor network, was first described by John Hopfield in 1982.
+Neural networks are applied to the problem of learning, using such techniques as Hebbian learning
+and the relatively new field of Hierarchical Temporal Memory which simulates the architecture of the neocortex.
+Social and emergent models.
+Several algorithms for learning use tools from evolutionary computation, such as genetic algorithms and swarm intelligence.
+Control theory.
+Control theory, the grandchild of cybernetics, has many important applications, especially in robotics.
+Specialized languages.
+AI applications are also often written in standard languages like C++ and languages designed for mathematics, such as Matlab and Lush.
+Evaluating artificial intelligence.
+How can one determine if an agent is intelligent? In 1950, Alan Turing proposed a general procedure to test the intelligence of an agent now known as the Turing test. This procedure allows almost all the major problems of artificial intelligence to be tested. However, it is a very difficult challenge and at present all agents fail.
+Artificial intelligence can also be evaluated on specific problems such as small problems in chemistry, hand-writing recognition and game-playing. Such tests have been termed subject matter expert Turing tests. Smaller problems provide more achievable goals and there are an ever-increasing number of positive results.
+For example, performance at checkers is optimal, performance at chess is super-human and nearing strong super-human, performance at Go is sub-human, and performance at many everyday tasks performed by humans is sub-human.
+Competitions and prizes.
+There are a number of competitions and prizes to promote research in artificial intelligence. The main areas promoted are: general machine intelligence, conversational behaviour, data-mining, driverless cars, robot soccer and games.
+Applications of artificial intelligence.
+Artificial intelligence has successfully been used in a wide range of fields including medical diagnosis, stock trading, robot control, law, scientific discovery and toys. Frequently, when a technique reaches mainstream use it is no longer considered artificial intelligence, sometimes described as the AI effect.

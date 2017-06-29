@@ -1,0 +1,51 @@
+Circle.
+A circle is one of the basic shapes of Euclidean geometry. It is the locus of all points in a plane at a constant distance, called the radius, from a fixed point, called the "center". Through any three points not on the same line, there passes one and only one circle.
+A chord of a circle is a line segment whose both endpoints lie on the circle. A diameter is a chord passing through the center. The length of a diameter is twice the radius. A diameter is the largest chord in a circle.
+Circles are simple closed curves which divide the plane into an interior and an exterior. The "circumference" of a circle is the perimeter of the circle, and the interior of the circle is called a "disk". An "arc" is any connected part of a circle.
+A circle is a special ellipse in which the two foci are coincident. Circles are conic sections attained when a right circular cone is intersected with a plane perpendicular to the axis of the cone.
+Analytic results.
+In an "x"-"y" Cartesian coordinate system, the circle with center ("a", "b") and radius "r" is the set of all points ("x", "y") such that
+The equation of the circle follows from the Pythagorean theorem applied to any point on the circle. If the circle is centred at the origin (0, 0), then this formula can be simplified to
+When expressed in parametric equations, ("x", "y") can be written using the trigonometric functions sine and cosine as
+where "t" is a parametric variable, understood as the angle the ray to ("x", "y") makes with the "x"-axis. Alternatively, in stereographic coordinates, the circle has a parametrization
+In homogeneous coordinates each conic section with equation of a circle is
+It can be proven that a "conic section" is a circle if and only if the point I(1,i,0) and J(1,-i,0) lie on the conic section. These points are called the circular points at infinity.
+In polar coordinates the equation of a circle is
+In the complex plane, a circle with a center at "c" and radius ("r") has the equation formula_9. Since formula_10, the slightly generalised equation formula_11 for real "p", "q" and complex "g" is sometimes called a generalised circle. Not all generalised circles are actually circles: a generalized circle is either a (true) circle or a line.
+Tangent lines.
+The tangent line through a point "P" on a circle is perpendicular to the diameter passing through "P". The equation of the tangent line to a circle of radius "r" centered at the origin at the point ("x"1, "y"1) is
+More generally, the slope at a point ("x", "y") on the circle formula_14, i.e., the circle centered at ("a", "b") with radius "r" units, is given by
+provided that formula_16.
+Pi (formula_17).
+Pi or π is the ratio of a circle's circumference to its diameter.
+The numeric value of formula_17 never changes.
+In modern English, it is (as in apple pie).
+Circumference.
+Given that the ratio circumference "c" to the Area "A" is
+The "r" and the π can be canceled, leaving
+So the circumference is equal to 2 times the area, divided by the radius. This can be used to calculate the circumference when a value for π cannot be computed.
+Diameter.
+The diameter of a circle is a straight line through the center
+of the circle touching the circle at both sides.
+The diameter of a circle is double its radius.
+Area enclosed.
+Using a square with side lengths equal to the diameter of the circle,
+then dividing the square into four squares with side lengths equal to the radius of the circle, take the area of the smaller square and multiply by formula_24.
+formula_27
+that is, approximately 79% of the circumscribing square.
+The circle is the plane curve enclosing the maximum area for a given arclength. This relates the circle to a problem in the calculus of variations.
+Inscribed angles.
+An inscribed angle formula_30 is exactly half of the corresponding central angle formula_31 (see Figure).
+Hence, all inscribed angles that subtend the same arc have the same value
+(cf. the blue and green angles formula_30 in the Figure). Angles inscribed on the arc are supplementary.
+In particular, every inscribed angle that subtends a diameter
+is a right angle.
+Apollonius circle==.
+Apollonius of Perga showed that a circle may also be defined as the set of points in plane having a constant "ratio" of distances to two fixed foci, A and B.
+Analogously, a line segment PD bisects the corresponding exterior angle. Since the interior and exterior angles sum to formula_35, the angle CPD is exactly formula_36, i.e., a right angle. The set of points P that form a right angle with a given line segment CD form a circle, of which CD is the diameter.
+Cross-ratios.
+Stated another way, "P" is a point on the Apollonius circle if and only if the cross-ratio ["A","B";"C","P"] is on the unit circle in the complex plane.
+Generalized circles.
+If "C" is the midpoint of the segment "AB", then the collection of points "P" satisfying the Apollonius condition
+is not a circle, but rather a line.
+Thus, if "A", "B", and "C" are given distinct points in the plane, then the locus of points "P" satisfying (1) is called a generalized circle. It may either be a true circle or a line.

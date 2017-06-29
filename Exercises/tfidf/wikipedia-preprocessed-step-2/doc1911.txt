@@ -1,0 +1,27 @@
+Acute accent.
+The acute accent ( ' ) is a diacritic mark used in many modern written languages with alphabets based on the Latin, Cyrillic alphabet and Greek scripts. The word "acute" is derived from the Latin "acutus" ("sharp"), itself a loan translation of the Greek ("oxýs").
+History.
+The acute accent was first used in the polytonic orthography of Ancient Greek, where it indicated a syllable with a high pitch. Modern Greek has a stress accent instead of a pitch accent, so the diacritic is now used to mark the stressed vowel of a word.
+Another early precursor of the acute accent was the apex, used in Latin inscriptions to mark long vowels.
+Height.
+The acute accent marks the height of some stressed vowels in various Romance languages.
+Palatalization.
+On consonant letters, the acute accent often represents a palatalized sound.
+In Polish, the acute accent is used over several letters—four consonants and one vowel. Over the consonants, it is used to indicate palatalization, similar to the use of the "háček" in Czech and other Slavic languages; e.g. "sześć" // "six". In traditional Polish typography, the "kreska" is more nearly vertical than an acute, and placed slightly right of center.
+In Bosnian, Croatian and Serbian the letter "ć" is used to represent a palatalized "t".
+In the romanization of Macedonian, "ǵ" and "ḱ" represent the Cyrillic letters Ѓ and Ќ, which stand for palatal or alveolo-palatal consonants, though "gj" and "kj" are more commonly used for this purpose.
+Tone.
+In some tonal languages written with the Latin alphabet, such as Vietnamese written in the standard Quốc Ngữ system, and Mandarin Chinese written in the Pinyin romanization, the acute accent is used to indicate a rising tone.
+In African languages, it frequently marks a high tone, e.g. Yoruba "apá" 'arm', Nobiin "féntí" 'sweet date', Ekoti "kaláwa" 'boat'.
+Emphasis.
+In Dutch, the acute accent can also be used to emphasize an individual word within a sentence. For example, "Het is ónze auto, niet die van jullie"," "This is "our" car, not yours." In this example, "ónze" is merely an emphasized form of "onze".
+In Danish, the acute accent can also be used for emphasis, especially on the word "der" (there), ex. "Der kan ikke være mange mennesker dér"," meaning "There can't be many people "there" or "Dér skal vi hen" meaning "Thats where we're going".
+Use in English.
+As with other diacritical marks, a number of loanwords are sometimes spelled in English with an acute accent used in the original language: these include "sauté", "roué", "café", "touché", "fiancé", and "fiancée" but many consider this nonstandard. Retention of the accent is common only in the French ending "é" or "ée", as in these examples, where its absence would tend to suggest a different pronunciation. Thus the French word "résumé" is commonly seen in English as "resumé", with only one accent.
+For foreign terms used in English that have not been assimilated into English or are not in general English usage, italics are generally used with the appropriate accents: for example, "adiós", "coup d'état", "pièce de résistance", "crème brûlée".
+Accents are sometimes also used for poetic purposes, to indicate an unusual pronunciation: for example, spelling the word "picked" (normally) as "pickéd" to indicate the pronunciation. The grave accent is also sometimes used for this purpose.
+Technical notes.
+The ISO-8859-1 and extended ASCII character encodings include the letters "á", "é", "í", "ó", "ú", "ý", and their respective capital forms. Dozens more letters with the acute accent are available in Unicode. Unicode also provides the acute accent as a separate character U+00B4 and a combining character, U+0301.
+On a UK Keyboard layout, these letters can also be made by holding Ctrl+Alt (or Alt Gr) and the desired letter.
+Some sites, such as Wikipedia or the allow inserting such symbols by clicking on a link in a box.
+On a Macintosh, an acute accent is placed on a vowel by pressing Option-e and then the vowel, which can also be capitalised; for example, á is formed by pressing Option-e and then 'a', and Á is formed by pressing Option-e and then Shift-a.

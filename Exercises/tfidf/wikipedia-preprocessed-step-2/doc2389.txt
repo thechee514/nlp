@@ -1,0 +1,18 @@
+Aluminium chloride.
+Aluminium chloride (AlCl3) is a compound of aluminium and chlorine. The solid has a low melting and boiling point, and is covalently bonded. It sublimes at 178 °C. Molten AlCl3 conducts electricity poorly, unlike more ionic halides such as sodium chloride. It exists in the solid state as a six-coordinate layer lattice.
+AlCl3 adopts the "YCl3" structure, featuring Al3+ cubic close packed layered structure. In contrast, AlBr3 has a more molecular structure, with the Al3+ centers occupying adjacent tetrahedral holes of the close-packed framework of Br− ions. Upon melting AlCl3 gives the dimer Al2Cl6, which can vaporise. At higher temperatures this Al2Cl6 dimer dissociates into trigonal planar AlCl3, which is structurally analogous to BF3.
+AlCl3 is probably the most commonly used Lewis Acid and also one of the most powerful. It finds widespread application in the chemical industry as the classic catalyst for Friedel-Crafts reactions, both acylations and alkylations. It also finds use in polymerization and isomerization reactions of hydrocarbons.
+Aluminium also forms a lower chloride, aluminum(I) chloride (AlCl), but this is very unstable and only known in the vapour phase.
+Chemical properties.
+Aluminium chloride is a powerful Lewis acid, capable of forming stable Lewis acid-base adducts with even weak Lewis bases such as benzophenone or mesitylene. Not surprisingly it forms AlCl4− in the presence of chloride ions.
+AlCl3(aq) + 3 NaOH(aq) → Al(OH)3(s) + 3NaCl(aq)
+Preparation.
+Aluminium chloride is manufactured on a large scale by the exothermic reaction of aluminium metal with chlorine or hydrogen chloride.
+Hydrated forms are prepared by dissolving aluminium oxides with hydrochloric acid.
+Uses.
+With benzene derivatives, the major product is the para isomer. The alkylation reaction has many associated problems, such as in Friedel-Crafts, so it is less widely used than the acylation reaction. For both reactions, the aluminum chloride, as well as other materials and the equipment, must be moderately dry, although a trace of moisture is necessary for the reaction to proceed. A general problem with the Friedel-Crafts reaction is that the aluminium chloride "catalyst" needs to be present in full stoichiometric quantities in order for the reaction to go to completion, because it complexes strongly with the products (see chemical properties above). This makes it very difficult to recycle, so it must be destroyed after use, generating a large amount of corrosive waste. For this reason chemists are examining the use of more environmentally benign catalysts such as ytterbium(III) triflate or dysprosium(III) triflate, which can be
+AlCl3 is also widely used for polymerization and isomerization reactions of hydrocarbons. Important examples include the manufacture of ethylbenzene, which used to make styrene and thus polystyrene, and also production of dodecylbenzene, which is used for making detergents.
+Aluminium chloride combined with aluminum in the presence of an arene can be used to synthesize bis(arene) metal complexes, e.g. bis(benzene)chromium, from certain metal halides via the so-called Fischer-Hafner synthesis.
+Aluminum chloride, often in the form of derivatives such as aluminium chlorohydrate, is a common component in antiperspirants at low concentrations. Hyperhidrosis sufferers need a much higher concentration (15% or higher), sold under such brand names as Drysol®, Maxim®, Odaban®, CertainDri®, B+Drier® and Driclor®.
+Precautions.
+Anhydrous AlCl3 reacts vigorously with water and bases, so suitable precautions are required. Hydrated salts are less problematic.

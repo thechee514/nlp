@@ -1,0 +1,3 @@
+List of elements by name.
+This is a list of chemical elements, sorted by name and color coded according to type of element.
+Given is each element's element symbol, atomic number, atomic mass or most stable isotope, and group and period numbers on the periodic table.

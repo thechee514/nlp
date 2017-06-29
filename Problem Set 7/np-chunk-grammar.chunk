@@ -1,0 +1,9 @@
+# Regexp Chunk Parsing Grammar
+# Saved Fri May 29 11:36:14 2015
+#
+# Development set: conll2000
+#   Precision: 73.47%
+#   Recall:    79.77%
+#   F-score:   76.49%
+
+{(<DT>|<PRP>|<PRP$>|<NNP>|<JJ>|<EX>|<CD>)*(<NN>|<CD>)*((<JJ><NN>)|<NNS>)*}
